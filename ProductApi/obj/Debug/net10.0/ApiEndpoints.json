@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "AddProductList.Controllers.AddProductListController",
+    "Method": "AddProduct",
+    "RelativePath": "api/AddProductList/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addProduct",
+        "Type": "ProductApi.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductApi.Controllers.CategoryController",
+    "Method": "Category",
+    "RelativePath": "api/Category/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductApi.Controllers.DeleteProductController",
+    "Method": "deleteProduct",
+    "RelativePath": "api/DeleteProduct",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductApi.Controllers.ProductListController",
+    "Method": "GetProducts",
+    "RelativePath": "api/ProductList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductApi.Controllers.UpdateProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/UpdateProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "updatedProduct",
+        "Type": "ProductApi.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
